@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/main_white"
+    android:layout_height="match_parent">
+
+    <com.pili.pldroid.player.widget.PLVideoTextureView
+        android:id="@+id/pl_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.example.mrboudar.playboy.widgets.CircleLoadingView
+        android:id="@+id/LoadingView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        />
+</FrameLayout>

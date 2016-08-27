@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.mrboudar.playboy.MainActivity">
+
+    <com.example.mrboudar.playboy.widgets.MoMoHomeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fillViewport="true"
+        app:columns="4"
+        app:rows="5"
+        android:background="@android:color/darker_gray"
+        tools:context="com.example.mrboudar.playboy.MainActivity">
+
+
+    </com.example.mrboudar.playboy.widgets.MoMoHomeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/weibo_login"
+            android:layout_width="match_parent"
+            android:text="微博登录"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="#800000FF"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="@dimen/dimens_1_dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@color/main_white"
+            />
+        <Button
+            android:id="@+id/qq_login"
+            android:layout_width="match_parent"
+            android:text="QQ快速登录"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="#800000FF"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

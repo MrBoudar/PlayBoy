@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.example.mrboudar.playboy.widgets.MyRoundImageView
+        android:id="@+id/id_header_face"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/dimens_50_dp"
+        />
+
+    <TextView
+        android:id="@+id/id_header_authorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_10_dp"
+        android:layout_marginBottom="@dimen/dimens_20_dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

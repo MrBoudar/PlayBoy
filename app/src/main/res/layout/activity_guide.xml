@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/id_pic"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        app:cardCornerRadius="@dimen/dimens_0_dp"
+        app:cardBackgroundColor="@color/fab_red"
+        android:layout_height="@dimen/dimens_100_dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/main_white"
+            android:text="看图片"
+            />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/id_video"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        app:cardCornerRadius="@dimen/dimens_0_dp"
+        app:cardBackgroundColor="@color/main_blue_dark"
+        android:layout_height="@dimen/dimens_100_dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/main_white"
+            android:text="看视频"
+            />
+    </android.support.v7.widget.CardView>
+</LinearLayout>

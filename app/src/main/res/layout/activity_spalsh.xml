@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/one"
+    android:orientation="vertical">
+
+
+    <com.example.mrboudar.playboy.widgets.ATCircleTimer
+        android:id="@+id/circleTimer"
+        app:circleBg="@android:color/black"
+        app:paintWidth="2dp"
+        app:progress="50"
+        app:progressColor="@android:color/holo_red_dark"
+        app:text="跳过"
+        app:textcolor="@android:color/white"
+        app:textsize="13sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="14dp" />
+</LinearLayout>
